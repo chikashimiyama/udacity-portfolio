@@ -1,10 +1,51 @@
-body{
+body {
 	font-family: futura;
 }
 
-header{
-	padding: 15px;
+header {
+	padding: 13px;
 	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+figure {
+	margin: 3px;
+}
+
+figcaption {
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+}
+
+section{
+	margin-bottom: 0px;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+.bio-box {
+	clear: both;
+	padding: 13px;
+	font-size: small;
+}
+
+.featured-works-box {
+	clear: both;
+	padding: 13px;
+	font-size: small;
+}
+
+.work-image {
+	border: solid 1px #ccc;
+	max-width: 200px;
 }
 
 #logo-box{
@@ -13,42 +54,34 @@ header{
 	height: 60px;
 }
 
-.name-box{
+#name-box {
 	float: right;
 	text-align: right;
 }
 
-#name{
+#name {
 	margin: 0px;
 }
 
-#job-title{
+#job-title {
 	color: #444;
 	font-style: italic;
 }
 
-figcaption{
-	font-size: small;
-	text-align: center;
-}
-
-img{
-	max-width: 100%;
-}
-
-#portrait{
+#portrait {
 	float: right;
 	margin: 10px;
 	border-radius: 40px;
+	width: 150px;
 }
 
-.bio-box{
-	clear: both;
-	padding: 10px;
-	font-size: small;
+@media screen and (min-width: 800px){
+	#portrait {
+		width: 220px;
+	}
 }
 
-.portfolio-box{
+#portfolio-box {
 	border: solid 1px #ccc;
 	padding: 5px;
 	overflow: hidden;
@@ -57,26 +90,41 @@ img{
 	justify-content: space-between;
 }
 
-.work-figure{
-	width: 200px;
-	margin: 0px;
-	padding: 1%;
-}
-
-.work-image{
-	width: 100%;
-	border: solid 1px #ccc;
-}
-
-footer{
-	text-align: center;
-	position: relative;
-	margin-top: 20px;
-}
-
-#copyright{
+#copyright {
 	clear: both;
 	color: #888;
 	font-size: small;
 	font-style: italic;
 }
+
+@media screen and (max-width: 695px) {
+	figure {
+		float: right;
+		min-width: 100%;
+	}
+	.work-image {
+		float: left;
+		max-width: 170px;
+	}
+	figcaption {
+		margin-left: 5px;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.work-image {
+		max-width: 240px;
+	}
+}
+
+.global-frame{
+	max-width: 1024px;
+	margin: auto;
+	background: #fff;
+}
+
+
+
+
+
