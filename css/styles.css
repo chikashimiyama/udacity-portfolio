@@ -1,0 +1,81 @@
+body{
+	font-family: futura;
+}
+
+header{
+	padding: 0px 15px 0px 0px;
+}
+
+footer{
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+figcaption{
+	font-size: small;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+
+.logo-box{
+	float: right;
+}
+
+.name-box{
+	float: right;
+	text-align: right;
+}
+
+#job-title{
+	color: #444;
+	font-style: italic;
+}
+
+#portrait{
+	float: right;
+	margin: 10px;
+	border-radius: 40px;
+}
+
+.bio-box{
+	clear: both;
+	padding: 10px;
+	font-size: small;
+}
+
+
+.portfolio-box{
+	border: solid 1px #ccc;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.work-figure{
+	float: left;
+	width: 30%;
+	margin: 0px;
+	padding: 1%;
+}
+
+.work-image{
+	width: 100%;
+	border: solid 1px #ccc;
+}
+.work-box{
+	float: left;
+	border: solid 1px #ccc;
+	width: 30%;
+	margin: 3px;
+}
+
+
+#copyright{
+	clear: both;
+	color: #888;
+	font-size: small;
+	font-style: italic;
+}
