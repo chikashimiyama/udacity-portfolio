@@ -3,13 +3,28 @@ body{
 }
 
 header{
-	padding: 0px 15px 0px 0px;
+	padding: 15px;
+	overflow: hidden;
 }
 
-footer{
-	text-align: center;
-	position: relative;
-	margin-top: 20px;
+#logo-box{
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.name-box{
+	float: right;
+	text-align: right;
+}
+
+#name{
+	margin: 0px;
+}
+
+#job-title{
+	color: #444;
+	font-style: italic;
 }
 
 figcaption{
@@ -19,20 +34,6 @@ figcaption{
 
 img{
 	max-width: 100%;
-}
-
-.logo-box{
-	float: right;
-}
-
-.name-box{
-	float: right;
-	text-align: right;
-}
-
-#job-title{
-	color: #444;
-	font-style: italic;
 }
 
 #portrait{
@@ -47,16 +48,17 @@ img{
 	font-size: small;
 }
 
-
 .portfolio-box{
 	border: solid 1px #ccc;
 	padding: 5px;
 	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .work-figure{
-	float: left;
-	width: 30%;
+	width: 200px;
 	margin: 0px;
 	padding: 1%;
 }
@@ -65,13 +67,12 @@ img{
 	width: 100%;
 	border: solid 1px #ccc;
 }
-.work-box{
-	float: left;
-	border: solid 1px #ccc;
-	width: 30%;
-	margin: 3px;
-}
 
+footer{
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
 
 #copyright{
 	clear: both;
