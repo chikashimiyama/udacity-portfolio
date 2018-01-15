@@ -48,34 +48,34 @@ footer {
 	max-width: 200px;
 }
 
-#logo-box{
+.logo-box{
 	float: left;
 	width: 60px;
 	height: 60px;
 }
 
-#name-box {
+.name-box {
 	float: right;
 	text-align: right;
 }
 
-#name {
+.name {
 	margin: 0px;
 }
 
-#job-title {
+.job-title {
 	color: #444;
 	font-style: italic;
 }
 
-#portrait {
+.portrait {
 	float: right;
 	margin: 10px;
 	border-radius: 40px;
 	width: 150px;
 }
 
-#portfolio-box {
+.portfolio-box {
 	border: solid 1px #ccc;
 	padding: 5px;
 	overflow: hidden;
@@ -84,24 +84,30 @@ footer {
 	justify-content: space-between;
 }
 
-#copyright {
+.copyright {
 	clear: both;
 	color: #888;
 	font-size: small;
 	font-style: italic;
 }
 
+.global-frame{
+	max-width: 1024px;
+	margin: auto;
+	background: #fff;
+}
+
 @media screen and (min-width: 800px) {
-	#portrait {
+	.portrait {
 		width: 220px;
 	}
 }
 
 @media screen and (max-width: 695px) {
 	figure {
-		float: right;
 		min-width: 100%;
 	}
+	/* caption should be moved to the right if the viewport is small*/
 	.work-image {
 		float: left;
 		max-width: 170px;
@@ -116,10 +122,4 @@ footer {
 	.work-image {
 		max-width: 240px;
 	}
-}
-
-.global-frame{
-	max-width: 1024px;
-	margin: auto;
-	background: #fff;
 }
