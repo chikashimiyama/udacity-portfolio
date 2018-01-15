@@ -103,16 +103,9 @@ footer {
 	/* caption should be moved to the right if the viewport is small*/
 	.work-image {
 		float: left;
-		max-width: 170px;
 	}
 	figcaption {
 		margin-left: 5px;
 		float: left;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	.work-image {
-		max-width: 240px;
 	}
 }
