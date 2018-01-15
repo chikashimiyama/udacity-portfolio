@@ -72,7 +72,6 @@ footer {
 	float: right;
 	margin: 10px;
 	border-radius: 40px;
-	width: 150px;
 }
 
 .portfolio-box {
@@ -95,12 +94,6 @@ footer {
 	max-width: 1024px;
 	margin: auto;
 	background: #fff;
-}
-
-@media screen and (min-width: 800px) {
-	.portrait {
-		width: 220px;
-	}
 }
 
 @media screen and (max-width: 695px) {
